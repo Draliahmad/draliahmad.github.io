@@ -1,31 +1,149 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Dr Ali Ahmad | Research Portfolio</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 20px;
-            font-family: Arial, sans-serif;
-            background-color: #f8f8f8;
-            text-align: center;
-        }
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dr Ali Ahmad | Research Portfolio</title>
 
-        h1 {
-            color: #333;
-            margin-bottom: 20px;
-        }
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        color: #222;
+    }
 
-        p {
-            color: #555;
-            font-size: 18px;
-        }
-    </style>
+    /* HERO SECTION */
+    .hero {
+        background: linear-gradient(to right, #3b82f6, #9333ea);
+        padding: 80px 20px;
+        text-align: center;
+        color: white;
+    }
+    .hero h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .hero p {
+        font-size: 20px;
+        opacity: 0.9;
+    }
+
+    /* SECTIONS */
+    .section {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 0 20px;
+    }
+    .section h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+        color: #333;
+    }
+    .section p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    /* PROJECT CARDS */
+    .projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .card {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+        margin-top: 0;
+        color: #444;
+    }
+
+    /* FOOTER */
+    footer {
+        text-align: center;
+        padding: 25px;
+        background: #222;
+        color: white;
+        margin-top: 40px;
+    }
+</style>
 </head>
 
 <body>
-    <h1>Welcome to Dr Ali Ahmad’s Portfolio</h1>
-    <p>This website is under development.</p>
+
+<!-- HERO SECTION -->
+<div class="hero">
+    <h1>Dr Ali Ahmad</h1>
+    <p>Biomedical Researcher | AI in Healthcare | Drug Discovery | Immuno-Oncology</p>
+</div>
+
+<!-- ABOUT -->
+<div class="section">
+    <h2>About Me</h2>
+    <p>
+        I am a biomedical scientist and researcher with expertise in immuno-oncology,
+        drug discovery, CRISPR systems, nanomedicine, and AI-driven analytics.
+        I work across multiple domains including molecular mechanisms,
+        computational biology, and predictive modelling for global antimicrobial resistance.
+    </p>
+</div>
+
+<!-- RESEARCH INTERESTS -->
+<div class="section">
+    <h2>Research Interests</h2>
+    <p>• Immune checkpoint signalling & tumour microenvironment<br>
+       • AI-driven predictive models for antimicrobial resistance<br>
+       • CRISPR-Cas9 gene editing & bacteriophage systems<br>
+       • Drug discovery & nucleoside analogues (PANCAN-SG1)<br>
+       • Nanostructured lipid carriers & targeted drug delivery<br>
+    </p>
+</div>
+
+<!-- PROJECTS -->
+<div class="section">
+    <h2>Featured Projects</h2>
+
+    <div class="projects">
+        <div class="card">
+            <h3>AI-Driven AMR Prediction</h3>
+            <p>Machine learning models for global antimicrobial resistance forecasting (systematic review & meta-analysis).</p>
+        </div>
+
+        <div class="card">
+            <h3>PANCAN-SG1 IND Application</h3>
+            <p>Regulatory dossier preparation for a nucleoside-based investigational drug for pancreatic cancer.</p>
+        </div>
+
+        <div class="card">
+            <h3>Nanostructured Lipid Carriers</h3>
+            <p>Characterisation of meropenem-thymol NLCs including particle size, PDI, ZP, and HPLC analytics.</p>
+        </div>
+
+        <div class="card">
+            <h3>Immuno-Oncology Review</h3>
+            <p>High-impact review on immune checkpoint blockade and TME reprogramming.</p>
+        </div>
+    </div>
+</div>
+
+<!-- CONTACT -->
+<div class="section">
+    <h2>Contact</h2>
+    <p>
+        📧 Email: draliahmad@example.com<br>
+        🔗 ORCID: 0000-0002-8045-9860<br>
+        🔗 GitHub: github.com/Draliahmad<br>
+    </p>
+</div>
+
+<footer>
+    © 2025 Dr Ali Ahmad — All rights reserved.
+</footer>
+
 </body>
 </html>
