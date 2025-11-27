@@ -1,0 +1,204 @@
+/* GENERAL PAGE SETTINGS */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ff00ff;
+    text-align: center;
+    color: rgb(234, 8, 125)
+}
+
+/* HEADER SECTION */
+.header {
+    background: #f0d005;
+    padding: 40px 20px;
+    color: rgb(190, 6, 46);
+}
+
+/* Profile Photo */
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Name Title + Glow */
+.name-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #d70838;
+    hover: blue
+    text-shadow: 0 0 15px #00ff44, 0 0 30px #00ff44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Stethoscope Icon */
+.stethoscope {
+    font-size: 1.5em;
+    text-shadow: 0 0 10px #ec0615, 0 0 25px #00ff44;
+}
+
+/* Subtitle */
+.subtitle {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Social Icons */
+.social-icons img {
+    width: 35px;
+    margin: 10px;
+}
+
+/* SECTION STYLE */
+.section {
+    background: #05e73a;
+    margin: 30px auto;
+    padding: 30px;
+    width: 80%;
+    border-radius: 15px;
+}
+
+.section h2 {
+    color: #dfee08;
+    font-size: 2rem;
+}
+
+.section p, .section ul {
+    font-size: 1.1rem;
+    color: #222;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+/* PROJECT CARDS */
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.project-card {
+    background: white;
+    width: 280px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.2);
+    padding-bottom: 15px;
+}
+
+.project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.project-card h3 {
+    margin-top: 15px;
+    color: #333;
+}
+
+.project-card p {
+    padding: 0 10px;
+    color: #d60a0a;
+}
+
+
+/* CONTACT FORM */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+}
+
+.contact-form textarea {
+    height: 120px;
+    resize: none;
+}
+
+.contact-form button {
+    background: #5ea8ff;
+    color: white;
+    padding: 12px;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #1b7be0;
+}
+.header {
+    background: #3b82f6;   /* beautiful blue */
+    padding: 40px 20px;
+    color: white;
+}
+#projects {
+    text-align: center;
+    padding: 40px;
+}
+
+.project-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.project-gallery img:hover {
+    transform: scale(1.05);
+}
+#projects {
+    text-align: center;
+    padding: 40px;
+}
+
+.project-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.project-gallery img:hover {
+    transform: scale(1.05);
+}
