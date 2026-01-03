@@ -9,6 +9,16 @@ carrier (NLC) formulation data used in pharmaceutical drug delivery.
 - Correlation analysis (heatmap)
 - Principal Component Analysis (PCA)
 - Data standardisation
+## Results & Visualisations
+
+### Correlation Heatmap
+![Correlation Heatmap](correlation_heatmap.png)
+
+### PCA Scatter Plot
+![PCA Scatter](pca_scatter.png)
+
+### PCA Loadings Plot
+![PCA Loadings](pca_loadings.png)
 
 ## Tools
 Python, pandas, seaborn, scikit-learn, matplotlib
