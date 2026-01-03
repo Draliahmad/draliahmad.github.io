@@ -19,6 +19,11 @@ carrier (NLC) formulation data used in pharmaceutical drug delivery.
 
 ### PCA Loadings Plot
 ![PCA Loadings](pca_loadings.png)
+## Interpretation of Results
+
+The correlation heatmap demonstrates strong interdependence between formulation composition and physicochemical stability. Encapsulation efficiency (EE%) shows a strong association with lipid composition and zeta potential, indicating the importance of surface charge in formulation stability.
+
+Principal Component Analysis (PCA) reveals clear separation of formulations along PC1, primarily driven by particle size, encapsulation efficiency, and zeta potential. PC2 captures secondary variability related to formulation stability over time. These findings highlight key formulation parameters that can be optimised to enhance nanocarrier performance.
 
 ## Tools
 Python, pandas, seaborn, scikit-learn, matplotlib
