@@ -1,54 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dr Ali Ahmad | Portfolio</title>
 
-    <!-- FONT AWESOME (required for footer icons) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
-</head>
-
-  <title>Dr Ali Ahmad | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<!-- AI Chatbot: Floating Bubble + Chat Window -->
-<div id="ai-chatbot">
-  <div id="ai-chatbot-window">
-    <div class="ai-chatbot-header">
-      <span>Dr Ali's AI Assistant</span>
-      <button id="ai-chatbot-close">&times;</button>
-    </div>
-    <div id="ai-chatbot-messages">
-      <div class="ai-chatbot-message ai-chatbot-bot">
-        👋 Hello! I’m Dr Ali’s AI assistant. Ask me about his research,
-        data science projects, or anything on this website.
+  </head>
+  <body>
+    <!-- AI Chatbot: Floating Bubble + Chat Window -->
+    <div id="ai-chatbot">
+      <div id="ai-chatbot-window">
+        <div class="ai-chatbot-header">
+          <span>Dr Ali's AI Assistant</span>
+          <button id="ai-chatbot-close">&times;</button>
+        </div>
+        <div id="ai-chatbot-messages">
+          <div class="ai-chatbot-message ai-chatbot-bot">
+            👋 Hello! I'm Dr Ali's AI assistant. Ask me about his research, data
+            science projects, or anything on this website.
+          </div>
+        </div>
+        <form id="ai-chatbot-form">
+          <input
+            type="text"
+            id="ai-chatbot-input"
+            placeholder="Ask me anything..."
+            autocomplete="off"
+          />
+          <button type="submit">Send</button>
+        </form>
       </div>
-    </div>
-    <form id="ai-chatbot-form">
-      <input
-        type="text"
-        id="ai-chatbot-input"
-        placeholder="Ask me anything..."
-        autocomplete="off"
-      />
-      <button type="submit">Send</button>
-    </form>
-  </div>
 
-  <button id="ai-chatbot-toggle">
-    💬
-  </button>
-</div>
+      <button id="ai-chatbot-toggle">💬</button>
+    </div>
+
     <!-- TOP NAVIGATION BAR -->
     <nav class="navbar">
-  
-
       <div class="nav-right">
         <a href="#home">Home</a>
         <a href="#projects">Projects</a>
@@ -59,217 +51,236 @@
 
     <!-- HEADER / HERO -->
     <header class="hero">
-
-
-  </div>
-</nav>
-</nav>
-  <!-- HEADER / HERO -->
-  <header class="hero">
-    <div class="hero-inner">
-      <div class="hero-text">
-
-        <h1 class="name">Dr Ali Ahmad</h1>
-      <p class="subtitle">
-    MBBS<br>
-    MSc Clinical &amp; Molecular Microbiology<br>
-    MSc Drug Discovery &amp; Development
-</p>
-
-
-      <div class="hero-photo">
-        <!-- Make sure this file exists: images/profile.jpg -->
-        <img src="images/about/profile.png" alt="Dr Ali Ahmad portrait" />
+      <div class="hero-inner">
+        <div class="hero-text">
+          <h1 class="name">Dr Ali Ahmad</h1>
+          <p class="subtitle">
+            MBBS<br />
+            MSc Clinical &amp; Molecular Microbiology<br />
+            MSc Drug Discovery &amp; Development
+          </p>
+        </div>
+        <div class="hero-photo">
+          <img src="profile.png" alt="Dr Ali Ahmad portrait" />
+        </div>
       </div>
-    </div>
-  </header>      
+    </header>
 
-  <!-- ABOUT SECTION -->
-  <section id="about" class="section">
-    <div class="section-inner">
-      <h2>About Me</h2>
-      <p>
-        I am a medical doctor, MBBS, MSc Clinical &amp; Molecular Microbiology, MSc
-        and Drug Discovery &amp; Development. My work bridges biomedical research, infectious
-        diseases, and data science, with a particular focus on antimicrobial resistance,
-        immuno-oncology, and AI-driven healthcare.
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+      <div class="section-inner">
+        <h2>About Me</h2>
+        <p>
+          I am a medical doctor, MBBS, MSc Clinical &amp; Molecular
+          Microbiology, MSc and Drug Discovery &amp; Development. My work
+          bridges biomedical research, infectious diseases, and data science,
+          with a particular focus on antimicrobial resistance, immuno-oncology,
+          and AI-driven healthcare.
+        </p>
+        <p>
+          I am building a portfolio at the intersection of medicine, machine
+          learning, and translational research — from systematic reviews and
+          meta-analyses to bioinformatics pipelines and predictive modelling.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section section-alt">
+      <div class="section-inner">
+        <h2>Projects</h2>
+        <div class="grid projects-grid">
+          <!-- PROJECT 1 -->
+          <article class="card project-card">
+            <img
+              src="images/projects/1.jpg"
+              alt="AI for AMR surveillance"
+              class="card-img"
+            />
+            <div class="card-body">
+              <h3>AI-Driven Antimicrobial Resistance Surveillance</h3>
+              <p>
+                Systematic review and meta-analysis of machine learning models
+                for predicting global antimicrobial resistance patterns,
+                integrating Python, R, and DistillerSR.
+              </p>
+            </div>
+          </article>
+
+          <!-- PROJECT 2 -->
+          <article class="card project-card">
+            <img src="profile.png" ... /> alt="Immuno-oncology review"
+            class="card-img" />
+            <div class="card-body">
+              <h3>Immune Checkpoint Blockade &amp; Tumour Microenvironment</h3>
+              <p>
+                Comprehensive review of T-cell signalling, immune checkpoint
+                pathways, and metabolic rewiring in the tumour microenvironment,
+                with publication-ready figures.
+              </p>
+            </div>
+          </article>
+
+          <!-- PROJECT 3 -->
+          <article class="card project-card">
+            <img src="profile.png" ... />
+            alt="Drug discovery project" class="card-img" />
+            <div class="card-body">
+              <h3>PANCAN-SG1: IND-Style Regulatory Dossier</h3>
+              <p>
+                Pre-clinical and regulatory strategy for a nucleoside analogue
+                in early-stage pancreatic cancer, including CMC, toxicology, and
+                clinical trial design.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section">
+      <div class="section-inner">
+        <h2>Skills</h2>
+        <div class="grid skills-grid">
+          <div class="card">
+            <div class="card-body">
+              <h3>Biomedical &amp; Clinical</h3>
+              <ul>
+                <li>Clinical &amp; Molecular Microbiology</li>
+                <li>Immunology &amp; Immuno-oncology</li>
+                <li>Antimicrobial Resistance (AMR)</li>
+                <li>Drug Discovery &amp; Development</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h3>Data Science &amp; AI</h3>
+              <ul>
+                <li>Python</li>
+                <li>R Programming</li>
+                <li>JavaScript</li>
+                <li>Statistical analysis &amp; meta-analysis</li>
+                <li>Machine learning for healthcare</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h3>Tools &amp; Platforms</h3>
+              <ul>
+                <li>DistillerSR, Rayyan, Stata, RevMan</li>
+                <li>VS Code, GitHub, Jupyter</li>
+                <li>Tableau, Excel</li>
+                <li>Website Designing</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEOS SECTION -->
+    <section id="videos" class="section">
+      <h2 class="section-title">My Videos</h2>
+      <p class="section-subtitle">
+        Presentations, tutorials, research clips, and more.
       </p>
-      <p>
-        I am building a portfolio at the intersection of medicine, machine learning, and
-        translational research — from systematic reviews and meta-analyses to bioinformatics
-        pipelines and predictive modelling.
-      </p>
-    </div>
-  </section>
 
-  <!-- PROJECTS SECTION -->
-  <section id="projects" class="section section-alt">
-    <div class="section-inner">
-      <h2>Projects</h2>
-      <div class="grid projects-grid">
-        <!-- PROJECT 1 -->
-        <article class="card project-card">
-          <!-- Make sure this exists, or change the filename -->
-          <img src="images/projects/1.jpg" alt="AI for AMR surveillance" class="card-img" />
-          <img src="images/projects/2.jpg" alt="AI for AMR surveillance" class="card-img" />
-          <img src="images/projects/3.jpg" alt="AI for AMR surveillance" class="card-img" />
-          <img src="images/projects/4.jpg" alt="AI for AMR surveillance" class="card-img" />
-          <img src="images/projects/5.jpg" alt="AI for AMR surveillance" class="card-img" />
-          <img src="images/projects/6.jpg" alt="AI for AMR surveillance" class="card-img" />
-          <img src="images/projects/7.jpg" alt="AI for AMR surveillance" class="card-img" />
-          <img src="images/projects/8.jpg" alt="AI for AMR surveillance" class="card-img" />
-          <img src="images/projects/9.jpg" alt="AI for AMR surveillance" class="card-img" />
-          <img src="images/projects/10.jpg" alt="AI for AMR surveillance" class="card-img" />
-          <div class="card-body">
-            <h3>AI-Driven Antimicrobial Resistance Surveillance</h3>
-            <p>
-              Systematic review and meta-analysis of machine learning models for predicting global
-              antimicrobial resistance patterns, integrating Python, R, and DistillerSR.
-            </p>
-          </div>
-        </article>
-
-        <!-- PROJECT 2 -->
-        <article class="card project-card">
-          <img src="images/project2.jpg" alt="Immuno-oncology review" class="card-img" />
-          <div class="card-body">
-            <h3>Immune Checkpoint Blockade &amp; Tumour Microenvironment</h3>
-            <p>
-              Comprehensive review of T-cell signalling, immune checkpoint pathways, and metabolic
-              rewiring in the tumour microenvironment, with publication-ready figures.
-            </p>
-          </div>
-        </article>
-
-        <!-- PROJECT 3 -->
-        <article class="card project-card">
-          <img src="images/project3.jpg" alt="Drug discovery project" class="card-img" />
-          <div class="card-body">
-            <h3>PANCAN-SG1: IND-Style Regulatory Dossier</h3>
-            <p>
-              Pre-clinical and regulatory strategy for a nucleoside analogue in early-stage
-              pancreatic cancer, including CMC, toxicology, and clinical trial design.
-            </p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- SKILLS SECTION -->
-  <section id="skills" class="section">
-    <div class="section-inner">
-      <h2>Skills</h2>
-      <div class="grid skills-grid">
-        <div class="card">
-          <div class="card-body">
-            <h3>Biomedical &amp; Clinical</h3>
-            <ul>
-              <li>Clinical &amp; Molecular Microbiology</li>
-              <li>Immunology &amp; Immuno-oncology</li>
-              <li>Antimicrobial Resistance (AMR)</li>
-              <li>Drug Discovery &amp; Development</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-body">
-            <h3>Data Science &amp; AI</h3>
-            <ul>
-              <li>Python</li>
-              <li>R Programming</li>
-              <li>JavaScript</li>
-               <li>Statistical analysis &amp; meta-analysis</li>
-              <li>Machine learning for healthcare</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-body">
-            <h3>Tools &amp; Platforms</h3>
-            <ul>
-              <li>DistillerSR, Rayyan, Stata, RevMan</li>
-              <li>VS Code, GitHub, Jupyter</li>
-              <li>Tableau, Excel</li>
-              <li>Website Designing</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-<section id="videos" class="section">
-    <h2 class="section-title">My Videos</h2>
-    <p class="section-subtitle">Presentations, tutorials, research clips, and more.</p>
-
-    <div class="video-grid">
-
+      <div class="video-grid">
         <!-- PCR Video -->
         <div class="video-card">
-            <iframe 
-                src="https://www.youtube.com/embed/GZBsMxzYacc"
-                frameborder="0"
-                allowfullscreen>
-            </iframe>
+          <iframe
+            src="https://www.youtube.com/embed/GZBsMxzYacc"
+            frameborder="0"
+            allowfullscreen
+          >
+          </iframe>
         </div>
+      </div>
+    </section>
 
-    </div>
-</section>
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section section-alt">
+      <div class="section-inner">
+        <h2>Contact</h2>
+        <p>
+          If you would like to collaborate on research, data science projects,
+          or academic writing, feel free to get in touch.
+        </p>
 
+        <form
+          class="contact-form"
+          action="mailto:drali56789@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="Your name"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="Drali56789"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="How can I help?"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn primary">Send Message</button>
+        </form>
+      </div>
+    </section>
 
-</
-</section>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-social">
+        <!-- GitHub -->
+        <a
+          href="https://draliahmad.github.io"
+          target="_blank"
+          aria-label="GitHub"
+        >
+          <i class="fab fa-github"></i>
+        </a>
 
-  <!-- CONTACT SECTION -->
-  <section id="contact" class="section section-alt">
-    <div class="section-inner">
-      <h2>Contact</h2>
-      <p>
-        If you would like to collaborate on research, data science projects, or academic writing,
-        feel free to get in touch.
-      </p>
+        <!-- LinkedIn -->
+        <a
+          href="https://www.linkedin.com/in/dr-ali-ahmad-619b24152"
+          target="_blank"
+          aria-label="LinkedIn"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
 
-      <form class="contact-form" action="mailto:drali56789@gmail.com" method="post" enctype="text/plain">
-        <div class="form-row">
-          <label for="name">Name</label>
-          <input id="name" name="name" type="text" placeholder="Your name" required />
-        </div>
-        <div class="form-row">
-          <label for="email">Email</label>
-          <input id="email" name="email" type="email" placeholder="Drali56789" required />
-        </div>
-        <div class="form-row">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="4" placeholder="How can I help?" required></textarea>
-        </div>
-        <button type="submit" class="btn primary">Send Message</button>
-      </form>
-    </div>
-  </section>
+        <!-- Email -->
+        <a href="mailto:Drali56789@gmail.com" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </footer>
 
-  <div class="footer-social">
-  <!-- GitHub -->
-  <a href="https://draliahmad.github.io"
-     target="_blank"
-     aria-label="GitHub">
-    <i class="fab fa-github"></i>
-  </a>
-
-  <!-- LinkedIn -->
-  <a href="https://www.linkedin.com/in/dr-ali-ahmad-619b24152"
-     target="_blank"
-     aria-label="LinkedIn">
-    <i class="fab fa-linkedin"></i>
-  </a>
-
-  <!-- Email -->
-  <a href="mailto:Drali56789@gmail.com"
-     aria-label="Email">
-    <i class="fas fa-envelope"></i>
-  </a>
-</div>
-<script src="chatbot.js"></script>
-</body>
+    <script src="chatbot.js"></script>
+  </body>
 </html>
