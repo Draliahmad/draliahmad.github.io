@@ -5,6 +5,18 @@ document.addEventListener("DOMContentLoaded", () => {
   const input = document.getElementById("ai-chatbot-input");
   const messages = document.querySelector(".chat-messages");
 
+  // Safety checks (prevents “null is not an object” crashes)
+  if (!chatbot || !toggleBtn || !form || !input || !messages) {
+    console.error("Chatbot init failed. Missing element(s):", {
+      chatbot: !!chatbot,
+      toggleBtn: !!toggleBtn,
+      form: !!form,
+      input: !!input,
+      messages: !!messages,
+    });
+    return;
+  }
+
   // Toggle open/close chatbot window
   toggleBtn.addEventListener("click", () => {
     chatbot.classList.toggle("open");
