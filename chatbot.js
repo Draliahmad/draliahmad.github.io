@@ -1,3 +1,5 @@
+console.log("chatbot.js loaded");
+
 document.addEventListener("DOMContentLoaded", () => {
   const chatbot = document.getElementById("ai-chatbot-window");
   const toggleBtn = document.getElementById("ai-chatbot-toggle");
