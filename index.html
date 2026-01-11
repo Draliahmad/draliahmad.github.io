@@ -12,32 +12,49 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- AI Chatbot: Floating Bubble + Chat Window -->
-    <div id="ai-chatbot">
-      <div id="ai-chatbot-window">
-        <div class="ai-chatbot-header">
-          <span>Dr Ali's AI Assistant</span>
-          <button id="ai-chatbot-close">&times;</button>
-        </div>
-        <div id="ai-chatbot-messages">
-          <div class="ai-chatbot-message ai-chatbot-bot">
-            👋 Hello! I'm Dr Ali's AI assistant. Ask me about his research, data
-            science projects, or anything on this website.
-          </div>
-        </div>
-        <form id="ai-chatbot-form">
-          <input
-            type="text"
-            id="ai-chatbot-input"
-            placeholder="Ask me anything..."
-            autocomplete="off"
-          />
-          <button type="submit">Send</button>
-        </form>
-      </div>
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dr Ali Ahmad | Portfolio</title>
 
-      <button id="ai-chatbot-toggle">💬</button>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Chatbot CSS -->
+  <link rel="stylesheet" href="chatbot.css" />
+</head>
+<body>
+
+  <h1>Welcome to My Portfolio</h1>
+  <p>This is my website.</p>
+
+  <!-- ===== CHATBOT TOGGLE ===== -->
+  <button id="ai-chatbot-toggle" type="button">💬</button>
+
+  <!-- ===== CHATBOT WINDOW ===== -->
+  <div id="ai-chatbot-window">
+    <div class="chat-header">
+      <strong>AI Assistant</strong>
     </div>
+
+    <div class="chat-messages"></div>
+
+    <form id="ai-chatbot-form">
+      <input
+        id="ai-chatbot-input"
+        type="text"
+        placeholder="Type your message..."
+        autocomplete="off"
+      />
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <!-- Chatbot JS -->
+  <script src="chatbot.js" defer></script>
+</body>
+</html>
+
 
     <!-- TOP NAVIGATION BAR -->
     <nav class="navbar">
