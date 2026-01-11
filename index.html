@@ -12,14 +12,32 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-   <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Dr Ali Ahmad | Portfolio</title>
+    <!-- AI Chatbot: Floating Bubble + Chat Window -->
+    <div id="ai-chatbot">
+      <div id="ai-chatbot-window">
+        <div class="ai-chatbot-header">
+          <span>Dr Ali's AI Assistant</span>
+          <button id="ai-chatbot-close">&times;</button>
+        </div>
+        <div id="ai-chatbot-messages">
+          <div class="ai-chatbot-message ai-chatbot-bot">
+            👋 Hello! I'm Dr Ali's AI assistant. Ask me about his research, data
+            science projects, or anything on this website.
+          </div>
+        </div>
+        <form id="ai-chatbot-form">
+          <input
+            type="text"
+            id="ai-chatbot-input"
+            placeholder="Ask me anything..."
+            autocomplete="off"
+          />
+          <button type="submit">Send</button>
+        </form>
+      </div>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+      <button id="ai-chatbot-toggle">💬</button>
+    </div>
 
     <!-- TOP NAVIGATION BAR -->
     <nav class="navbar">
@@ -169,7 +187,7 @@
             </article>
 
             <!-- Project 5 -->
-        
+            <!-- Project 5 -->
             <article class="project-card">
               <div class="project-top">
                 <h3>Nanomedicine Formulation Data Analysis</h3>
@@ -195,8 +213,28 @@
                 <a class="btn" href="https://github.com/Draliahmad/project_2_nanomedicine_data_analysis-" target="_blank" rel="noopener">GitHub</a>
               </div>
             </article>
-         <!-- Project 6 -->
+
+            <!-- Project 6 -->
             <article class="project-card">
+              <div class="project-top">
+                <h3>Portfolio Website (This Site)</h3>
+                <p class="project-meta">Repository: <strong>draliahmad.github.io</strong></p>
+              </div>
+              <p class="project-desc">
+                Personal academic portfolio showcasing research, data projects, and outputs. Built with HTML/CSS/JS and deployed via GitHub Pages.
+              </p>
+              <div class="project-tags">
+                <span>GitHub Pages</span><span>HTML</span><span>CSS</span><span>Portfolio</span>
+              </div>
+              <div class="project-actions">
+                <a class="btn" href="https://github.com/Draliahmad/draliahmad.github.io" target="_blank" rel="noopener">GitHub</a>
+                <a class="btn btn-secondary" href="https://draliahmad.github.io" target="_blank" rel="noopener">Live</a>
+              </div>
+            </article>
+Project 7
+            <section id="projects">
+              <h2>Research Projects</h2>
+
               <div class="project-card">
                 <h3>Particle Size Analysis of Meropenem-Loaded NLCs</h3>
 
@@ -222,24 +260,6 @@
 
           </div>
         </div>
-            <!-- Project 7 -->
-            <article class="project-card">
-              <div class="project-top">
-                <h3>Portfolio Website (This Site)</h3>
-                <p class="project-meta">Repository: <strong>draliahmad.github.io</strong></p>
-              </div>
-              <p class="project-desc">
-                Personal academic portfolio showcasing research, data projects, and outputs. Built with HTML/CSS/JS and deployed via GitHub Pages.
-              </p>
-              <div class="project-tags">
-                <span>GitHub Pages</span><span>HTML</span><span>CSS</span><span>Portfolio</span>
-              </div>
-              <div class="project-actions">
-                <a class="btn" href="https://github.com/Draliahmad/draliahmad.github.io" target="_blank" rel="noopener">GitHub</a>
-                <a class="btn btn-secondary" href="https://draliahmad.github.io" target="_blank" rel="noopener">Live</a>
-              </div>
-            </article>
-
       </section>
       <!-- ===================== END PROJECTS =============
     <!-- SKILLS SECTION -->
